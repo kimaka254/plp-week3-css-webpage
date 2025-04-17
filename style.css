@@ -1,0 +1,52 @@
+/* General Page Styling */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f0f4f8;
+    margin: 0;
+    padding: 0;
+}
+
+/* ID Selector */
+#main-header {
+    background-color: #4a90e2;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    border-bottom: 5px solid #357ABD;
+}
+
+/* Class Selector */
+.title {
+    font-size: 2em;
+    margin: 0;
+}
+
+/* Class Selector */
+.content {
+    margin: 30px;
+    padding: 20px;
+    border: 2px dashed #ccc;
+    background-color: #ffffff;
+    color: #333333;
+    line-height: 1.6;
+}
+
+/* Image Styling */
+.styled-image {
+    width: 100%;
+    max-width: 600px;
+    border-radius: 10px;
+    border: 3px solid #4a90e2;
+    margin-top: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+footer {
+    text-align: center;
+    padding: 15px;
+    font-size: 0.9em;
+    background-color: #eaeaea;
+    border-top: 2px solid #ccc;
+}
